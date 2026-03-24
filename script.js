@@ -1,7 +1,7 @@
 
 let current = 0;
 let score = 0;
-let timer = 30;
+let timer = 50;
 let interval;
 let student = "";
 let section = "";
@@ -28,7 +28,7 @@ function begin() {
 function loadQuestion() {
   if (current >= QUESTIONS.length) return finishExam();
 
-  timer = 30;
+  timer = 50;
   const q = QUESTIONS[current];
   const box = document.getElementById("questionBox");
 
