@@ -73,7 +73,7 @@ function finishExam() {
 
   fetch(WEBAPP_URL, {
     method: "POST",
-    mode: "no-cors",
+    mode: "cors",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
@@ -84,4 +84,6 @@ function finishExam() {
         datetime
       )}`,
   });
+.then(res => console.log("Submitted"))
+.catch(err => console.error(err));
 }
