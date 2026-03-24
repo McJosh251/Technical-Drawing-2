@@ -1,502 +1,502 @@
 const QUESTIONS = [
   {
-    "question": "The command used to rename a file in DOS is:",
+    "question": "Which AutoCAD command is used to create straight lines?",
     "options": [
-      "A. COPY", 
-      "B. REN", 
-      "C. DIR", 
-      "D. TYPE" 
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "UEFI supports partition sizes up to:",
-    "options": [
-      "A. 9.4 ZB",
-      "B. 2.2 TB",
-      "C. 4 PB",
-      "D. 10 TB"
+      "A. LINE",
+      "B. POLYLINE",
+      "C. RAY",
+      "D. XLINE"
     ],
     "answer": "A"
   },
   {
-    "question": "Which OS structure moves most services to user space?",
+    "question": "Which key is used to cancel a command in AutoCAD?",
     "options": [
-      "A. Layered approach",
-      "B. Simple structure",
-      "C. Microkernel",
-      "D. Hybrid"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "GRUB is responsible for?",
-    "options": [
-      "A. Running the BIOS",
-      "B. Loading the Linux kernel",
-      "C. Testing the CPU",
-      "D. Managing RAM"
+      "A. Enter",
+      "B. Esc",
+      "C. Space bar",
+      "D. Tab"
     ],
     "answer": "B"
   },
   {
-    "question": "The DOS command that clears the screen is:",
+    "question": "Which command creates a circle using center and radius?",
     "options": [
-      "A. DIR",
-      "B. CLS",
-      "C. VER",
-      "D. CD"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An operating system acting as a control program means it:",
-    "options": [
-      "A. Allocates time to CPUs",
-      "B. Manages user logins",
-      "C. Prevents improper program use",
-      "D. Encrypts data"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The BIOS POST primarily checks:",
-    "options": [
-      "A. User passwords",
-      "B. Hardware integrity",
-      "C. CPU pipelines",
-      "D. Software versions"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "COPY CON is used to:",
-    "options": [
-      "A. Delete files",
-      "B. Create a new text file",
-      "C. Copy directories",
-      "D. Edit system settings"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which DOS command displays the version?",
-    "options": [
-      "A. VER",
-      "B. TYPE",
-      "C. DATE",
-      "D. EDIT"
+      "A. CIRCLE",
+      "B. ARC",
+      "C. DONUT",
+      "D. ELLIPSE"
     ],
     "answer": "A"
   },
   {
-    "question": "The kernel is best described as:",
+    "question": "The command used to remove objects from a drawing is:",
     "options": [
-      "A. The entire OS",
-      "B. A shell program",
-      "C. The program always running on the computer",
-      "D. An API"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The bootstrap program is stored in:",
-    "options": [
-      "A. Cache",
-      "B. Hard disk",
-      "C. ROM / EPROM",
-      "D. Video memory"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The command used to make a directory in DOS is:",
-    "options": [
-      "A. RD",
-      "B. MD",
-      "C. CD",
-      "D. TREE"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "MBR contains boot loader information and is how large?",
-    "options": [
-      "A. 512 bytes",
-      "B. 256 bytes",
-      "C. 1 KB",
-      "D. 4 KB"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A GUI is characterized by:",
-    "options": [
-      "A. Text-only interface",
-      "B. Icons and windows",
-      "C. Command-line prompts",
-      "D. Script automation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which system call type includes operations like create file and delete file?",
-    "options": [
-      "A. Device management",
-      "B. Protection",
-      "C. File management",
-      "D. Communications"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Caching is the process of:",
-    "options": [
-      "A. Storing files permanently",
-      "B. Increasing disk capacity",
-      "C. Copying information into faster storage",
-      "D. Encrypting memory"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which command compares two text files in DOS?",
-    "options": [
-      "A. FIND",
-      "B. XCOPY",
-      "C. FC",
-      "D. SORT"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which memory is volatile and directly accessible by the CPU?",
-    "options": [
-      "A. Hard disk",
-      "B. ROM",
-      "C. SSD",
-      "D. Main memory"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The first instruction executed by the CPU during boot is read from address:",
-    "options": [
-      "A. 00000",
-      "B. FFFF0",
-      "C. A0000",
-      "D. F000F"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which command lists all files in a directory?",
-    "options": [
-      "A. DIR",
-      "B. DEL",
-      "C. PATH",
-      "D. VOL"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The command used to delete a file in DOS is:",
-    "options": [
-      "A. RD",
-      "B. DEL",
+      "A. ERASE",
+      "B. DELETE",
       "C. REMOVE",
-      "D. KILL"
+      "D. CLEAR"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which coordinate system uses values relative to the last point picked?",
+    "options": [
+      "A. Absolute",
+      "B. Relative Cartesian",
+      "C. Polar",
+      "D. World"
     ],
     "answer": "B"
   },
   {
-    "question": "Internal DOS commands are loaded from which file?",
+    "question": "Which tool is used to copy objects a specified distance and direction?",
     "options": [
-      "A. AUTOEXEC.BAT",
-      "B. COMMAND.COM",
-      "C. IO.SYS",
-      "D. MSDOS.SYS"
+      "A. COPY",
+      "B. MOVE",
+      "C. OFFSET",
+      "D. ARRAY"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In AutoCAD, which function key toggles Ortho Mode?",
+    "options": [
+      "A. F2",
+      "B. F4",
+      "C. F8",
+      "D. F10"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The command used to round or connect two objects with an arc:",
+    "options": [
+      "A. CHAMFER",
+      "B. FILLET",
+      "C. TRIM",
+      "D. EXTEND"
     ],
     "answer": "B"
   },
   {
-    "question": "Which OS service provides mechanisms for communication between processes?",
+    "question": "Which is the shortcut for the Zoom Extents command?",
     "options": [
-      "A. Debugging",
-      "B. Memory management",
-      "C. File manipulation",
-      "D. Communications"
+      "A. ZE",
+      "B. ZO",
+      "C. ZW",
+      "D. Z+"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which layer property controls whether objects can be edited or not?",
+    "options": [
+      "A. Color",
+      "B. Lineweight",
+      "C. Freeze",
+      "D. Lock"
     ],
     "answer": "D"
   },
   {
-    "question": "Which boot component loads GRUB?",
+    "question": "The AutoCAD command used to combine lines and arcs into one object:",
     "options": [
-      "A. Kernel",
-      "B. BIOS",
-      "C. MBR",
-      "D. POST"
+      "A. JOIN",
+      "B. BLOCK",
+      "C. POLYLINE",
+      "D. GROUP"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The command used to create multiple copies of an object around a center point:",
+    "options": [
+      "A. MIRROR",
+      "B. ROTATE",
+      "C. ARRAY (Polar)",
+      "D. OFFSET"
     ],
     "answer": "C"
   },
   {
-    "question": "Timesharing systems require a response time less than:",
+    "question": "Which icon represents the UCS (User Coordinate System) in AutoCAD?",
     "options": [
-      "A. 10s",
-      "B. 5s",
-      "C. 1s",
-      "D. 0.01s"
+      "A. Grid",
+      "B. Crosshair",
+      "C. XYZ icon at origin",
+      "D. Axis arrows"
     ],
     "answer": "C"
   },
   {
-    "question": "Which is NOT a major component of a computer system?",
+    "question": "Which command is used to divide an object into equal segments?",
     "options": [
-      "A. Users",
-      "B. Firmware",
-      "C. Hardware",
-      "D. OS"
+      "A. BREAK",
+      "B. DIVIDE",
+      "C. MEASURE",
+      "D. SPLIT"
     ],
     "answer": "B"
   },
   {
-    "question": "The command used to view file contents in DOS is:",
+    "question": "The tool used to create parallel lines or concentric circles:",
     "options": [
-      "A. TYPE",
-      "B. VIEW",
-      "C. SHOW",
-      "D. PRINT"
+      "A. OFFSET",
+      "B. COPY",
+      "C. SCALE",
+      "D. MIRROR"
     ],
     "answer": "A"
   },
   {
-    "question": "EFI eliminates the need for:",
+    "question": "In AutoCAD, which is the default angle measurement?",
     "options": [
-      "A. a boot sector",
-      "B. a video driver",
-      "C. RAM access",
-      "D. file systems"
+      "A. Decimal degrees",
+      "B. Radians",
+      "C. Surveyor’s units",
+      "D. Gradians"
     ],
     "answer": "A"
   },
   {
-    "question": "The EFI System Partition (ESP) contains:",
+    "question": "Which command is used to change the size of an object without altering proportions?",
     "options": [
-      "A. BIOS commands",
-      "B. Boot loaders for OSes",
-      "C. CPU microcode",
-      "D. Partition tables"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which wildcard represents any number of characters?",
-    "options": [
-      "A. *",
-      "B. ?",
-      "C. #",
-      "D. %"
+      "A. SCALE",
+      "B. STRETCH",
+      "C. LENGTHEN",
+      "D. RESIZE"
     ],
     "answer": "A"
   },
   {
-    "question": "Multiprogramming ensures CPU efficiency by:",
+    "question": "What is the shortcut for the MOVE command?",
     "options": [
-      "A. Running the same process twice",
-      "B. Keeping the CPU executing some job always",
-      "C. Increasing RAM",
-      "D. Running BIOS repeatedly"
+      "A. MO",
+      "B. M",
+      "C. MV",
+      "D. MV+"
     ],
     "answer": "B"
   },
   {
-    "question": "System calls are typically accessed through a:",
+    "question": "The command used to cut off unwanted portions of objects:",
     "options": [
-      "A. CPU instruction",
-      "B. High-level API",
-      "C. Hardware interrupt",
-      "D. BIOS table"
+      "A. ERASE",
+      "B. TRIM",
+      "C. CUT",
+      "D. BREAK"
     ],
     "answer": "B"
   },
   {
-    "question": "What is * and ? in DOS command?",
+    "question": "Which file extension is used for AutoCAD drawing files?",
     "options": [
-      "A. Character",
-      "B. Wildcard",
-      "C. Object",
-      "D. Special character"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The UEFI boot manager stores configuration in:",
-    "options": [
-      "A. CMOS battery",
-      "B. NVRAM variables",
-      "C. Hard disk only",
-      "D. RAM"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which DOS command displays memory status?",
-    "options": [
-      "A. MEM",
-      "B. SCANDISK",
-      "C. LABEL",
-      "D. SORT"
+      "A. .DWG",
+      "B. .DXF",
+      "C. .DWT",
+      "D. .PDF"
     ],
     "answer": "A"
   },
   {
-    "question": "Which command is used to sort file contents?",
+    "question": "Which command creates a mirror image of selected objects?",
     "options": [
-      "A. SORT",
-      "B. TYPE",
-      "C. DIR",
-      "D. EDIT"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The command to remove a directory is:",
-    "options": [
-      "A. MD",
-      "B. RD",
-      "C. ERASE",
-      "D. Del"
+      "A. ROTATE",
+      "B. MIRROR",
+      "C. COPY",
+      "D. REFLECT"
     ],
     "answer": "B"
   },
   {
-    "question": "A trap is generated by:",
+    "question": "Which function key toggles object snap (OSNAP)?",
     "options": [
-      "A. Hardware failure",
-      "B. Software request or error",
-      "C. BIOS POST",
-      "D. Disk failure"
+      "A. F2",
+      "B. F3",
+      "C. F5",
+      "D. F7"
     ],
     "answer": "B"
   },
   {
-    "question": "What was the last standalone version of MS-DOS?",
+    "question": "Which command joins two lines at an angle by extending them until they intersect?",
     "options": [
-      "A. MS-DOS 4.0",
-      "B. MS-DOS 5.0",
-      "C. MS-DOS 6.22",
-      "D. MS-DOS 7.1"
+      "A. EXTEND",
+      "B. TRIM",
+      "C. FILLET",
+      "D. CHAMFER"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which object snap mode locates the exact center of a circle?",
+    "options": [
+      "A. Midpoint",
+      "B. Endpoint",
+      "C. Center",
+      "D. Quadrant"
     ],
     "answer": "C"
   },
   {
-    "question": "A microkernel improves system reliability because:",
+    "question": "The object snap used to locate the middle of a line is:",
     "options": [
-      "A. It uses only one module",
-      "B. Less code runs in kernel mode",
-      "C. Drivers run faster",
-      "D. It performs POST"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "DISKCOPY is used to:",
-    "options": [
-      "A. Copy file to file",
-      "B. Copy entire floppy disk",
-      "C. Compare disks",
-      "D. Sort disk contents"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which OS service ensures correct and consistent computing?",
-    "options": [
-      "A. Error detection",
-      "B. Logging",
-      "C. GUI management",
-      "D. Paging"
+      "A. Midpoint",
+      "B. Endpoint",
+      "C. Node",
+      "D. Intersection"
     ],
     "answer": "A"
   },
   {
-    "question": "DMA allows data transfer:",
+    "question": "Which command creates text in single-line format?",
     "options": [
-      "A. Only through CPU",
-      "B. Directly between device and memory",
-      "C. Only through disk",
-      "D. Through BIOS"
+      "A. TEXT",
+      "B. MTEXT",
+      "C. DTEXT",
+      "D. TEDIT"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "BIOS instructions are stored in:",
+    "question": "Which command is used to dimension distances between two points?",
     "options": [
-      "A. Magnetic disk",
-      "B. EEPROM",
-      "C. RAM",
-      "D. Flash drive"
+      "A. DIMLINEAR",
+      "B. DIMALIGNED",
+      "C. DIMRADIUS",
+      "D. DIMDIAMETER"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "The DOS EDIT command is used to:",
+    "question": "In AutoCAD, which interface element organizes commands into tabs and panels, similar to Microsoft Office?",
     "options": [
-      "A. Display memory",
-      "B. Display text",
-      "C. Edit/create ASCII files",
-      "D. Repair disks"
+      "A. Properties Palette",
+      "B. Command Line",
+      "C. Ribbon",
+      "D. Status Bar"
     ],
     "answer": "C"
   },
   {
-    "question": "Timesharing allows:",
+    "question": "Which command is used to create a rectangle?",
     "options": [
-      "A. Multiple processes to share CPU time interactively",
-      "B. One process to run indefinitely",
-      "C. Direct hardware access",
-      "D. Faster ROM access"
+      "A. RECT",
+      "B. RECTANGLE",
+      "C. BOX",
+      "D. POLYGON"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "The OS component that abstracts storage into files and directories is:",
+    "question": "Which command is used to create a polygon with equal sides?",
     "options": [
-      "A. Process manager",
-      "B. Device driver",
-      "C. File-system manager",
-      "D. BIOS"
+      "A. RECTANGLE",
+      "B. POLYGON",
+      "C. POLYLINE",
+      "D. ARRAY"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In AutoCAD, which part of the interface contains tools such as grid, snap, ortho, and object snap toggles?",
+    "options": [
+      "A. Quick Access Toolbar",
+      "B. Command Line",
+      "C. Status Bar",
+      "D. Navigation Bar"
     ],
     "answer": "C"
   },
   {
-    "question": "EFI supports CPU-independent:",
+    "question": "Which command enlarges or reduces objects but keeps proportions?",
     "options": [
-      "A. Programs",
-      "B. Drivers",
-      "C. Memory",
-      "D. BIOS modules"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which command moves files between directories?",
-    "options": [
-      "A. MOVE",
-      "B. MD",
-      "C. FC",
-      "D. COPY CON"
+      "A. SCALE",
+      "B. STRETCH",
+      "C. RESIZE",
+      "D. EXPAND"
     ],
     "answer": "A"
   },
   {
-    "question": "Which structure stores the address of all interrupt service routines?",
+    "question": "The command used to elongate or shorten objects:",
     "options": [
-      "A. Cache",
-      "B. Interrupt Vector",
-      "C. Stack",
-      "D. ALU"
+      "A. SCALE",
+      "B. LENGTHEN",
+      "C. OFFSET",
+      "D. EXPLODE"
     ],
     "answer": "B"
+  },
+  {
+    "question": "Which command converts a block back into individual objects?",
+    "options": [
+      "A. UNBLOCK",
+      "B. BREAK",
+      "C. EXPLODE",
+      "D. SEPARATE"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which command is used to save a drawing with a new name?",
+    "options": [
+      "A. SAVE",
+      "B. SAVEAS",
+      "C. EXPORT",
+      "D. CLOSE"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which AutoCAD feature allows you to switch between model space and paper space layouts?",
+    "options": [
+      "A. UCS",
+      "B. VIEWPORTS",
+      "C. LAYOUT tabs",
+      "D. PLOT"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which is NOT a valid object snap in AutoCAD?",
+    "options": [
+      "A. Tangent",
+      "B. Apparent intersection",
+      "C. Nearest",
+      "D. Approximate"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The default AutoCAD template file extension is:",
+    "options": [
+      "A. .DWG",
+      "B. .DXF",
+      "C. .DWT",
+      "D. .PDF"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In AutoCAD, when you select objects using a crossing window (right to left), which objects are included?",
+    "options": [
+      "A. Only objects fully inside the window",
+      "B. Objects fully inside or touched by the window boundary",
+      "C. Only objects touching the window boundary",
+      "D. No objects are selected"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which command is used to edit polylines (add/remove vertices, join, etc.)?",
+    "options": [
+      "A. PEDIT",
+      "B. JOIN",
+      "C. POLYLINE",
+      "D. SPLINE"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which command stretches objects crossed by a selection window?",
+    "options": [
+      "A. SCALE",
+      "B. MOVE",
+      "C. STRETCH",
+      "D. EXTEND"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which function key toggles grid display in AutoCAD?",
+    "options": [
+      "A. F3",
+      "B. F5",
+      "C. F7",
+      "D. F9"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In AutoCAD, when selecting objects with a window selection (left to right), which objects are selected?",
+    "options": [
+      "A. Objects fully inside the window",
+      "B. Objects touching the window boundary",
+      "C. Objects both inside and outside the window",
+      "D. No objects at all"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which tool allows you to draw construction lines that extend infinitely?",
+    "options": [
+      "A. LINE",
+      "B. XLINE",
+      "C. RAY",
+      "D. POLYLINE"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which command is used to measure the distance between two points?",
+    "options": [
+      "A. DIST",
+      "B. ID",
+      "C. DIM",
+      "D. CAL"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In AutoCAD, which toolbar provides one-click access to frequently used commands like New, Open, Save, Undo, and Redo?",
+    "options": [
+      "A. Status Bar",
+      "B. Ribbon",
+      "C. Quick Access Toolbar",
+      "D. Properties Palette"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The AutoCAD command used to repeat the last command is:",
+    "options": [
+      "A. SPACE bar / Enter",
+      "B. Ctrl+Z",
+      "C. Esc",
+      "D. Tab"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which command creates concentric circles or arcs at a specified distance?",
+    "options": [
+      "A. OFFSET",
+      "B. COPY",
+      "C. ARRAY",
+      "D. SCALE"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In AutoCAD, the UCS icon is usually placed at:",
+    "options": [
+      "A. Lower left corner",
+      "B. Center of screen",
+      "C. Upper right corner",
+      "D. Any corner"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which command is used to check the area and perimeter of a closed object?",
+    "options": [
+      "A. ID",
+      "B. PROPERTIES",
+      "C. LIST",
+      "D. AREA"
+    ],
+    "answer": "D"
   }
 ];
