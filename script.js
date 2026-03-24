@@ -69,7 +69,7 @@ function finishExam() {
 
   let datetime = new Date().toLocaleString();
   document.getElementById("studentResult").innerText =
-    `${student} (${section}), your score is ${score} out of ${QUESTIONS.length}.`;
+  `${student} (${section})\nScore: ${score} / ${QUESTIONS.length} (${Math.round((score / QUESTIONS.length) * 100)}%)`;
 
   fetch(WEBAPP_URL, {
   method: "POST",
