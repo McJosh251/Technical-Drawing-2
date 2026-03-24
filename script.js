@@ -6,7 +6,7 @@ let interval;
 let student = "";
 let section = "";
 
-const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwHT2bZFnZBsABkbIogVrnqmeuvDHrBehsfvi6Rqd3Aaz9qtatigFOT1uIxCkE5YHjZWg/exec";
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwwbPm1flxJtB-P9Bn1nwFIzyox4AyJ16r4BOqSNV32MJYHS3xz1kbn9kGdusBXqsHhSg/exec";
 
 function begin() {
   student = document.getElementById("studentName").value.trim();
