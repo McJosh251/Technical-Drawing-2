@@ -72,18 +72,14 @@ function finishExam() {
     `${student} (${section}), your score is ${score} out of ${QUESTIONS.length}.`;
 
   fetch(WEBAPP_URL, {
-    method: "POST",
-    mode: "cors",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body:
-      `name=${encodeURIComponent(student)}&section=${encodeURIComponent(
-        section
-      )}&score=${score}&total=${QUESTIONS.length}&datetime=${encodeURIComponent(
-        datetime
-      )}`,
-  });
-.then(res => console.log("Submitted"))
-.catch(err => console.error(err));
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+  },
+  body:
+    `name=${encodeURIComponent(student)}&section=${encodeURIComponent(section)}&score=${score}&total=${QUESTIONS.length}&datetime=${encodeURIComponent(datetime)}`
+})
+.then(res => res.text())
+.then(data => console.log("Server response:", data))
+.catch(err => console.error("Submit error:", err));
 }
